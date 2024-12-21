@@ -14,8 +14,17 @@ Before you begin, ensure you have installed Arduino IDE and made Azure account:
    `git clone https://github.com/StudentTraineeCenter/IoT-measurement-device`
 4. Install dependecies:  
    `pip install -r requirements.txt`
-6. Upload the sketch to Arduino UNO R3
+6. Upload the sketch to Arduino UNO R3 using Arduino IDE
 
 ### Connect Arduino  
-### Setup Azure IoT Central app
+1. Connect these sensors/motor to arduino board:  
+   -DHT11  
+   -soil moisture sensor  
+   -servo motor  
+   -3 different coloured LEDs  
+If you don't have these sensors/motors or you want to use some other the scetch must be changed.
+
+### Setup Azure IoT Central app  
+1. Create a resource group
+2. Create an IoT Central Application
 ### Bridge setup
