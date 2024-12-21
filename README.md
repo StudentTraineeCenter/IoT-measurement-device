@@ -10,10 +10,11 @@ Before you begin, ensure you have installed Arduino IDE and made Azure account:
 -[Azure](https://azure.microsoft.com/en-us/)
 ### Installation  
 1. Navigate to the place where you want the app to be downloaded in Command Prompt.
-2. Clone the repository: `git clone https://github.com/StudentTraineeCenter/IoT-measurement-device`
-3. Install dependecies:  
-`pip install -r requirements.txt`
-4. Upload the sketch to Arduino UNO R3
+2. Clone the repository:  
+   `git clone https://github.com/StudentTraineeCenter/IoT-measurement-device`
+4. Install dependecies:  
+   `pip install -r requirements.txt`
+6. Upload the sketch to Arduino UNO R3
 
 ### Connect Arduino  
 ### Setup Azure IoT Central app
