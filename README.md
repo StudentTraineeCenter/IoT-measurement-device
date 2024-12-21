@@ -1,7 +1,7 @@
 # IoT-measurement-device
 
 ## Introduction
-This project demostrates how to connect Arduino UNO R3 to Azure IoT Central app using python bridge script. Arduino gathers data like temperature, humidity and soil moisture. Then the data are beeing send via bridge to Azure IoT Central app where they are displayed. Data are beeing display real-time with delay that can be set to prefferences.
+This project demostrates how to connect Arduino UNO R3 to Azure IoT Central app using python bridge script. Arduino gathers data like temperature, humidity and soil moisture. Then the data are beeing send via bridge to Azure IoT Central app where they are displayed. The data is displayed in real-time with a delay interval that can be adjusted based on user preferences. This setup provides a scalable and flexible solution for IoT applications, making it ideal for environmental monitoring, smart farming, and other similar use cases. Additionally, the project leverages Azure IoT Central's advanced features for device management, telemetry visualization, and cloud integration.
 
 ## Getting Started  
 ### Prerequisites
@@ -43,5 +43,9 @@ You must fill out *Relationship* before saving and dont forget the *View*. This 
 5. Copy and paste these properties - **ID scope, Device ID, Device key** into their respective locations in the bridge script.
 ![image](https://github.com/user-attachments/assets/19c88dff-5658-4726-bc91-145fb58a6a97)
 
+
+      
+If there is still problem, double-check registered device properties or re-register device completely. The problem can be also in firewall or network restrictions. Test connectivity to Azure IoT service:  
+   `ping global.azure-devices-provisioning.net`  
 
 
